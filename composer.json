@@ -1,0 +1,26 @@
+{
+    "name": "filippov/payment",
+    "description": "Payment Module for DonatePay",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Andrey Filippov",
+            "email": "as102as@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PaymentModule\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "PaymentModule\\PaymentServiceProvider"
+            ]
+        }
+    }
+}
